@@ -1,0 +1,30 @@
+{
+  "name": "meraseat-backend",
+  "version": "1.0.0",
+  "description": "Meraseat full-scale backend server using Node.js, Express, and PostgreSQL",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "meraseat",
+    "express",
+    "postgresql",
+    "backend"
+  ],
+  "author": "Rahul Mahto",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
