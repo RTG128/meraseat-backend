@@ -21,7 +21,7 @@ export const verifyPartnerToken = (req, res, next) => {
     req.partner = { id: decoded.partnerId };
     next();
   } catch (err) {
-    console.error("❌ Invalid token - authPartner.js:24", err.message);
+    console.error("Invalid token - authPartner.js:24", err.message);
     res.status(401).json({
       success: false,
       message: "Invalid or expired token.",
